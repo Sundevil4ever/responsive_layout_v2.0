@@ -1,1 +1,1 @@
-# responsive_layout_v2.0
+# Responsive Layout v2.0
