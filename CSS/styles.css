@@ -17,8 +17,10 @@ body {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #7f7f7f;
 }
 
@@ -336,8 +338,10 @@ img {
 }
 
 .shield {
+  margin-top: 20px;
+  margin-bottom: -15px;
   -webkit-animation: jello-vertical 0.9s both;
-	        animation: jello-vertical 0.9s both;
+  animation: jello-vertical 0.9s both;
 }
 
 /**
@@ -477,45 +481,12 @@ img {
  * ----------------------------------------
  */
 
-@media (min-width: 320px) {
-
-  h2 {
-    padding-top: 40px !important;
-  }
-
-  .main-nav li {
-    background-color: #fff;
-    margin: 5px 0;
-    padding: 5px 0;
-    list-style: none;
-  }
-
-  .main-nav {
-    padding: 0 10px;
-  }
-
-  .main-nav a {
-    background-color: #fff;
-    margin: 5px 0;
-    padding: 5px 10px;
-  }
-
-  .profile {
-    padding-top: 15px;
-  }
-
-  .shield {
-    margin-top: 0;
-    padding-top: 25px;
-  }
-
-  p {
-      padding: 0 10px;
-  }
-
-}
 
 @media (min-width: 768px) {
+
+  h2 {
+    padding-top: 50px;
+  }
 
   .main-nav li {
     display: inline-block;
@@ -523,7 +494,8 @@ img {
   }
 
   .main-nav a {
-  background-color: #f7f7f7;
+    background-color: #f7f7f7;
+    margin-top: -20px;
   }
 
   .profile {
@@ -538,8 +510,9 @@ img {
     float: left;
     max-width: 60%;
     text-align: left;
-    margin-top: 40px;
     margin-bottom: 30px;
+    margin-top: 25px;
+    padding-left: 10px;
   }
 
   .banner {
@@ -553,12 +526,13 @@ img {
   }
 
   .col p {
-    font-size: .9em;
-    padding: 0 70px;
+    font-size: 1.15em;
+    padding: 0 45px;
+    padding-bottom: 20px;
   }
 
   .contact {
-    padding: 0 100px 70px;
+    padding: 10px 100px 35px;
   }
 
   .footer-right {
@@ -584,6 +558,10 @@ img {
 
 @media (min-width: 1024px) {
 
+  h2 {
+    padding-top: 30px;
+  }
+
   .shield {
     margin-top: 0;
     padding-top: 18px;
@@ -598,6 +576,7 @@ img {
 
   .main-nav a {
     background-color: #f7f7f7;
+    margin-top: 0px;
   }
 
   .name {
@@ -618,6 +597,7 @@ img {
     padding-top: 40px;
     padding-left: 26px;
     padding-right: 20px;
+    padding-bottom: 25px;
   }
 
   .top {
@@ -631,13 +611,13 @@ img {
   }
 
   .col p {
-    font-size: 1.1em;
-    padding: 0 70px;
+    font-size: 1.15em;
+    padding: 0 36px;
   }
 
   .contact {
     font-size: 1.2em;
-    padding: 50px 160px;
+    padding: 20px 160px 30px;
   }
 
   .clearfix::after {
