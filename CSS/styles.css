@@ -49,7 +49,9 @@ h4 {
 }
 
 h1,
-h2 {
+h2,
+h5
+{
   margin-top: 0;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -117,13 +119,26 @@ img {
 .main-header,
 .top,
 .portfolio,
-.contact {
+.contact,
+.skills
+{
   text-align: center;
 }
 
 .top {
   font-size: 1.2em;
   color: #707070;
+}
+
+.skills {
+  background-color: #fff;
+}
+
+.skills p {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.1em;
 }
 
 .portfolio {
@@ -323,6 +338,78 @@ img {
 
 .portfolio-6:hover {
   background: url("../images/portfolio-6.gif") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .25);
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.portfolio-7 {
+  background: url("../images/portfolio-7.png") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  width: 95%;
+  height: 275px;
+  margin: 0 auto;
+  transition: transform .2s; /* Animation */
+
+}
+
+.portfolio-7:hover {
+  background: url("../images/portfolio-7.gif") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .25);
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.portfolio-8 {
+  background: url("../images/portfolio-8.png") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  width: 95%;
+  height: 275px;
+  margin: 0 auto;
+  transition: transform .2s; /* Animation */
+
+}
+
+.portfolio-8:hover {
+  background: url("../images/portfolio-8.gif") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .25);
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.portfolio-9 {
+  background: url("../images/portfolio-9.png") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  width: 95%;
+  height: 275px;
+  margin: 0 auto;
+  transition: transform .2s; /* Animation */
+
+}
+
+.portfolio-9:hover {
+  background: url("../images/portfolio-9.gif") no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -549,6 +636,11 @@ img {
     padding-left: 20px;
   }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .clearfix::after {
     content: "";
     display: table;
@@ -592,6 +684,15 @@ img {
   }
 
   .container2 {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 26px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+  }
+
+  .container3 {
     width: 95%;
     margin: 0 auto;
     padding-top: 40px;
